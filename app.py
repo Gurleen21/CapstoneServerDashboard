@@ -17,11 +17,11 @@ for entry in result:
     name.append(entry)
 
 db2=cluster["Client"]
-collection2=db["UsersInfo"]
+collection2=db2["UsersInfo"]
 
 name_u=[]
 column_name_u = 'Username'
-result_u = collection.distinct(column_name)
+result_u = collection2.distinct(column_name_u)
 for entry_u in result_u:
     name_u.append(entry_u)
 
