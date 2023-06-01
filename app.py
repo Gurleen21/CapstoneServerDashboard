@@ -110,7 +110,7 @@ def user() :
 
     with u3:
         #st.write(name)
-        st.write("View Users")
+        st.write("name_u")
 
 with t1:
     st.write('     Dashboard    ')
